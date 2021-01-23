@@ -12,6 +12,13 @@ repositories {
 dependencies {
     implementation "io.reactivex.rxjava3:rxjava:3.0.9"
 
+    // reactor GA
+    compile "io.projectreactor:reactor-core:3.4.2"
+    testCompile "io.projectreactor:reactor-test:3.4.2"
+
+    // for reactor code debugging
+    implementation "io.projectreactor:reactor-tools:3.4.2"
+
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-api:5.7.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
 }

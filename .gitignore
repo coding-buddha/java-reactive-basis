@@ -156,3 +156,5 @@ gradle-app.setting
 # End of https://www.toptal.com/developers/gitignore/api/gradle
 # End of https://www.toptal.com/developers/gitignore/api/java,java-web,code-java,intellij+all
 ####################################################################################################################
+
+.gradle/checksums/*
